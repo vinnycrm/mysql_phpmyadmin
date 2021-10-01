@@ -17,6 +17,12 @@ Access the application via:
 http://<host-ip>:8080/
 ```
 
+Access the mysql via CLI:
+
+```console
+>docker exec -it <container-id> mysql -uroot -p
+```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
