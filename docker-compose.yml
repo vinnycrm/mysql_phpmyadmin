@@ -17,3 +17,4 @@ services:
       PMA_PASSWORD: root
     ports:
       - "8080:80"
+      - "3306:3306"
